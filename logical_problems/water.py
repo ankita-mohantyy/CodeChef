@@ -24,8 +24,6 @@ while t>0:
     for i in range(3):
         if b[i]==0:
             count+=1
-        else:
-            count+=0
     if count>=2:
         print("Water filling time")
     else:
